@@ -2,7 +2,7 @@ const { App } = require("@slack/bolt");
 const store = require("./store");
 const translate = require("translation-google");
 
-const testingchannel = "CTCSDSKE3";
+const translationchannel = "G011BAMNXHU";
 
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
@@ -12,11 +12,12 @@ const app = new App({
 app.event("message", async ({ event, context }) => {
   translate(event.text, { to: "en" }).then(res => {
     //console.log(res.text);
+    console.log(event);
 
     const result = app.client.chat.postMessage({
       token: context.botToken,
-      channel: testingchannel,
-      text: `${res.text}`
+      channel: translationchannel,
+      text: `<@${event.user}> said: ${res.text}`
     });
     //console.log(result);
   });
