@@ -1,0 +1,18 @@
+{
+  "name": "ut-slack-bot",
+  "version": "1.0.1",
+  "private": true,
+  "description": "he Universal Translator is a technology used to decipher and interpret alien languages into the native language of the user.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Eldin Zaimovic Get In GmbH",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^2.0.0",
+    "translation-google": "^0.2.1",
+    "slackbots": "^1.2.0"
+  }
+}
