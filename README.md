@@ -21,4 +21,3 @@ This is a simple example App built with [Slack's Bolt Framework](https://slack.d
 ### Events
 
 * [`message.channels `](https://api.slack.com/events/message.channels)
-
