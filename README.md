@@ -1,19 +1,8 @@
-# Slack Bolt - Hello World
-
-Read the tutorial at:
-[https://api.slack.com/tutorials/hello-world-bolt](https://api.slack.com/tutorials/hello-world-bolt)
-
+# Slack Translation Bot
 
 ---
 
 This is a simple example App built with [Slack's Bolt Framework](https://slack.dev/bolt/tutorial/getting-started) for node.js.
-
-Our App shows a welcome message when a user opens the "app home".
-
-### Slack API & features used in the app
-
-* The [`app_home_opened`](https://api.slack.com/events/app_home_opened) event gets triggered when a user opens the bot's "app home" for the first time
-* The app uses the Bolt's `say` method to send a welcome message to the user
 
 ### Requirements
 
@@ -21,12 +10,15 @@ Our App shows a welcome message when a user opens the "app home".
 * Your App must be subscribed to [Events API](https://api.slack.com/events-api)
 * Your app needs to be subscribed to the events mentioned in the *Events* section
 
+### Translation
+
+* App use Google translation api [Google translation api ](https://www.npmjs.com/package/translation-google)
+
 ### Scopes
 
 * [`chat:write`](https://api.slack.com/scopes/chat:write)
 
 ### Events
 
-#### Workspace events
-* [`app_home_opened`](https://api.slack.com/events/app_home_opened)
+* [`message.channels `](https://api.slack.com/events/message.channels)
 

@@ -2,7 +2,7 @@
   "name": "ut-slack-bot",
   "version": "1.0.1",
   "private": true,
-  "description": "he Universal Translator is a technology used to decipher and interpret alien languages into the native language of the user.",
+  "description": "The Universal Translator is a technology used to decipher and interpret alien languages into the native language of the user.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
