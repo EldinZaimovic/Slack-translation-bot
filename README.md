@@ -12,7 +12,7 @@ This is a simple example App built with [Slack's Bolt Framework](https://slack.d
 
 ### Translation
 
-* App use Google translation api [Google translation api ](https://www.npmjs.com/package/translation-google)
+* App use [Google translation api ](https://www.npmjs.com/package/translation-google)
 
 ### Scopes
 
