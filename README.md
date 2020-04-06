@@ -1,7 +1,5 @@
 # Slack Translation Bot
 
----
-
 This is a simple example App built with [Slack's Bolt Framework](https://slack.dev/bolt/tutorial/getting-started) for node.js.
 
 ### Requirements
